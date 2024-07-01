@@ -50,4 +50,4 @@ app.get('/historial', (req, res) => {
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor backend de calculadora iniciado en http://localhost:${PORT}`);
-});
+}); 
