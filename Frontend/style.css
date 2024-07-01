@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f2f5; /* Fondo gris claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
+  }
+  
+  #calculator {
+    border-radius: 15px; /* Bordes más redondeados */
+    padding: 20px; /* Más espacio interno */
+  }
+  
+  .button {
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    font-size: 1.4rem;
+    border-radius: 10px; /* Botones ligeramente redondeados */
+    background-color: hwb(210 56% 23%); /* Color de fondo neutro */
+    border: none; /* Sin bordes */
+    transition: background-color 0.2s; /* Transición suave */
+  }
+  
+  .button:hover {
+    background-color: #dee2e6; /* Cambio de color al pasar el mouse */
+  }
+  
+  .button.operator {
+    background-color: #495057; /* Color diferente para operadores */
+    color: white;
+  }
+  
+  .button.operator:hover {
+    background-color: #343a40;
+  }
+  
+  #display {
+    font-size: 2rem;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #ced4da;
+  }
+  
+  #historyList {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
